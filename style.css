@@ -50,3 +50,7 @@
 .calculator form #equal {
     width: 169px;
 }
+
+.calculator .operand {
+    background-color: rgb(255, 179, 72);
+}
