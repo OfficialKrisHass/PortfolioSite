@@ -104,30 +104,31 @@
     border-right-color: rgb(0, 14, 20);
     border-radius: 15px;
     box-shadow: -6px -6px 15px rgb(0, 5, 11, 0.4), 8px 8px 15px rgb(198, 237, 255, 0.01);
+    margin: 15px;
     padding: 20px;
     padding-bottom: 15px;
-    margin: 15px;
+    min-width: 150px;
     font-size: 30px;
     text-align: center;
 }
+
 .bar {
     background-color: rgb(10, 16, 27);
     border: 2px solid rgb(0, 7, 9);
     border-radius: 10px;
-    width: 200px;
+    width: 100%;
     height: 20px;
     margin-top: 10px;
     position: relative;
 }
 .bar::after {
     content: '';
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 255, 23);
     border-radius: 10px;
-    width: 90%;
-    height: 100%;
     position: absolute;
-    top: 0;
     left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 /*Projects*/
@@ -157,4 +158,71 @@ h4 {
 p {
     font-family: Roboto;
     font-size: 23px;
+}
+
+/*Skills*/
+.html::after {
+    background-color: rgb(103, 219, 46);
+    width: 80%;
+}
+.ue::after {
+    background-color: rgb(125, 211, 39);
+    width: 75%;
+}
+.java::after {
+    background-color: rgb(200, 185, 16);
+    width: 60%;
+}
+.rust::after {
+    background-color: rgb(255, 77, 0);
+    width: 40%;
+}
+.js::after {
+    background-color: rgb(255, 77, 0);
+    width: 40%;
+}
+
+.api::after {
+    background-color: rgb(49, 238, 62);
+    width: 90%
+}
+.backend::after {
+    background-color: rgb(49, 238, 62);
+    width: 90%;
+}
+.networking::after {
+    background-color: rgb(49, 238, 62);
+    width: 90%;
+}
+.databases::after {
+    background-color: rgb(103, 219, 46);
+    width: 80%;
+}
+.embed::after {
+    background-color: rgb(125, 211, 39);
+    width: 75%;
+}
+.encryption::after {
+    background-color: rgb(200, 185, 16);
+    width: 60%;
+}
+.os::after {
+    background-color: rgb(200, 185, 16); 
+    width: 60%;
+}
+.web::after {
+    background-color: rgb(200, 185, 16);
+    width: 60%;
+}
+.ui::after {
+    background-color: rgb(200, 185, 16);
+    width: 60%;
+}
+.security::after {
+    background-color: rgb(255, 166, 0);
+    width: 55%;
+}
+.frontend::after {
+    background-color: rgb(255, 166, 0);
+    width: 50%;
 }
